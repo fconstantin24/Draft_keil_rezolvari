@@ -1,0 +1,8 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections
+-I"C:\Users\Mihai\Dropbox\Facultate\laboratoare SMP ~ ARM\Laborator 6\Lab 6 - cod\V4\RTE\Device\STM32F103RB"
+-I"C:\Users\Mihai\Dropbox\Facultate\laboratoare SMP ~ ARM\Laborator 6\Lab 6 - cod\V4\RTE\_Target_1"
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc
+-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F10X_MD
+-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d "C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_i2c.c"
